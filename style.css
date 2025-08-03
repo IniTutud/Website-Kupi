@@ -704,9 +704,10 @@ body {
     padding: 1rem 2%;
   }
 
+
   .navbar .logo h1 {
     font-size: 2.5rem;
-    margin-left: 0;
+    margin-right: 20rem;
     margin-top: 0;
   }
   .navbar-nav {
@@ -725,7 +726,8 @@ body {
     padding: 1rem 0;
   }
   .navbar-extra {
-    margin-top: 0.5rem;
+    margin-top: -5rem;
+    margin-right: -21rem;
   }
   /* HERO */
   .hero1, .hero2, .beans, .beans1 {
