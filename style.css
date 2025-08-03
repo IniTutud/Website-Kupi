@@ -699,16 +699,22 @@ body {
   /* ==== RESPONSIVE OVERRIDES ==== */
 @media (max-width: 768px) {
   /* NAVBAR */
+ *{
+  overflow-x: hidden;
+ }
+ 
   .navbar {
     flex-direction: column;
     padding: 1rem 2%;
   }
 
 
+
   .navbar .logo h1 {
     font-size: 2.5rem;
-    margin-right: 20rem;
+    margin-right: 37rem;
     margin-top: 0;
+    padding-left: 200px;
   }
   .navbar-nav {
     display: none;
