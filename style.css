@@ -653,7 +653,15 @@ body {
 }
 
 .contact-form button:hover {
-  background-color: #6ba296;
+  transform: scale(1.1);
+      border: 1px solid rgba(255, 255, 255, 0.277);
+      background: rgba(255, 255, 255, 0.07);
+       backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      color: aliceblue;
+      transition: all 0.3s ease;  
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
 }
 
 .contact-map iframe {
@@ -843,3 +851,4 @@ body {
   .navbar-extra a { font-size: 1.1rem; }
   .cta .btn { padding: 0.5rem 1rem; }
 }
+
